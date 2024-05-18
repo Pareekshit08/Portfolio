@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px){
+    .navbar-brand{
+        padding-left: 0%;
+    }
+    .in_body{
+        margin-top: 0%;
+    }
+    .inside_body{
+       width: 100%;
+       border-radius: 0%;
+    }    
+    .inner_bod{
+        padding-top: 5em;
+        margin:auto;
+        font-size: bold;
+       }
+    .inner_bod h1{
+        /* font-family: 'Lobster', cursive; */
+        font-size: 1.2rem;
+    } 
+   
+    .footer{
+        height:2rem;
+        font-size:1rem;
+    }
+    .footer a i{
+        font-size: 1rem;
+        padding: 0rem 1rem;
+    }
+
+}

@@ -1,0 +1,122 @@
+body{
+background-color: black;
+}
+.smallpx{
+    height:8px;
+}
+
+.starter{
+background-color: rgb(0, 0, 0);  
+    background-size: cover;
+    border-bottom: 5rem;
+}
+.navbar{
+   background-color: rgb(231, 42, 108);
+}
+.navbar a,.navbar a:hover{
+font-size:1.2rem;
+font-weight: bold;
+color: white;
+}
+.navbar-brand {
+    font-family: "Audiowide", sans-serif;
+    padding-left:2rem;
+    color: white;
+  }
+.in_body{
+    margin-top: 3rem;
+}
+.inside_body{
+    width: 80%; 
+    color:rgb(255, 255, 255);
+   background-color: black;
+    background-size: cover;
+    border-radius: 4rem;
+    margin: auto;
+    transition: 0.5s;
+}
+.inside_body:hover{
+    box-shadow: 0 10px 16px 0 rgb(23, 5, 189),0 4px 8px 0 rgb(23, 5, 189), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inner_bod{
+ padding-top: 5em;
+ width:60%;
+ margin:auto;
+ font-size: bold;
+}
+.inner_bod h1{
+    /* font-family: 'Lobster', cursive; */
+    font-size: 4rem;
+}
+
+.explore button,.unexplore button{
+    font-size: 1.2rem;    
+    font-weight:1rem;   
+    color: rgb(255, 255, 255);
+    padding-left:2rem;
+    padding-right: 2rem;
+    border-radius: 50px;
+}
+
+.col-4{
+    overflow: scroll;
+}
+
+.cars{
+    background-color: rgba(255, 255, 255, 0.892);
+    text-align: center;
+    height: 498.px rem;
+    border-radius:14px;
+    margin:2rem;
+    color: black;
+    padding: 1rem;
+}
+.cars img{
+    width:25%;
+}
+
+
+/* carousel */
+
+.carousel{
+    padding:2rem;
+}
+.caro{
+    background-color: rgb(114, 48, 247);
+    color: rgb(0, 0, 0);
+}
+/* tech */
+.tech{
+    padding: 4rem;
+    padding-bottom: 0rem;
+    color: white;
+}
+.tech h1,.row h1{
+    font-family: "Audiowide", sans-serif;
+}
+
+.footer
+{
+    background: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2rem;
+}
+.footer a i{
+    color: rgb(251, 251, 251);
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+
+.offcanvas{
+    background-color: rgb(207, 75, 75);
+}
+.offcanvas-header h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+.offcanvas-body a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
